@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --main-color: #ff2332;
+  --primary-color: #ff662d;
+  --dark-color: #37383c;
+  --darklight-color: #3a3b3f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,h5,
+
+p {
+  margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar */
+.logo {
+  width: 12%;
+}
+
+.nav_main a {
+  color: #fff;
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
+  /* font-weight: 300; */
+
+}
+.nav_main li {
+  padding: 0 0.4rem;
+}
+
+.nav_main {
+  position: relative;
+  z-index: 100;
+  padding: 1rem 0;
+  background: #161616;
+}
+.nav_main a:active,
+.nav_main a:hover,
+.nav_main a:focus {
+  color: var(--main-color);
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.7rem 1.55rem;
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+/* Home CSS */
+.Hero {
+  background-image: url("./assets/Home1.jpg");
+  height: 680px;
+  background-position: center;
+  /* by default top left */
+  background-size: cover;
+  /* meaning 100vh h and w  */
+  background-repeat: no-repeat;
+ /* position: absolute;
+  top: 0; */
+  padding-top: 6rem; 
+  align-items: center;
+}
+.Hero1 {
+  background-image: url("./assets/HomeBack.jpg");
+  height: 680px;
+  background-position: center;
+  /* by default top left */
+  background-size: cover;
+  /* meaning 100vh h and w  */
+  background-repeat: no-repeat;
+ /* position: absolute;
+  top: 0; */
+  padding-top: 3.55rem; 
+  align-items: center;
+}
+.Hero2 {
+  background-image: url("./assets/HomeBack.jpg");
+  height: 680px;
+  background-position: center;
+  /* by default top left */
+  background-size: cover;
+  /* meaning 100vh h and w  */
+  background-repeat: no-repeat;
+ /* position: absolute;
+  top: 0; */
+  padding-top: 4rem; 
+  align-items: center;
+}
+
+span {
+  color: #fc2a38;
+}
+
+.Hero_col1 h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+.Hero_col1 p {
+  font-size: 1.2rem;
+  padding: 1.5rem 0;
+  color: #fff;
+}
+
+.btn0 {
+  padding: 0.9rem 1.8rem;
+  font-size: 1.2rem;
+}
+
+.Hero_col2 img {
+  width: 80%;
+}
+
+.play_btn {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  padding: 0 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.play_btn img {
+  width: 50px;
+  padding: 0.5rem 0.5rem 0.5rem 0.6rem;
+  border-radius: 100%;
+  background: var(--dark-color);
+}
+
+.Hero2_col2 img {
+  width: 70%;
+}
+
+.muscle-img {
+  padding-top: 85px;
+  position: relative;
+  left: 100px;
+}
+
+.dumble-img {
+  padding-top: 115px;
+  position: relative;
+  left: 130px;
+}
+
+/* Brands  */
+
+.Fitness_Goal {
+  background-color:var(--dark-color);
+  color: #fff;
+  padding: 2.3rem 0;
+}
+
+/* 7338606172 35per piece */
+/* if less then 70per piece */
+/* 50 per piece with designing 200 cards*/
+/* thermal printer */
+
+
+.Fitness_Goal1 {
+  background-color:var(--darklight-color);
+  color: #fff;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.fitness_col1 h1 {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.fitness_col1 p {
+  font-size: 1.4rem;
+  letter-spacing: 0.3px;
+  padding-top: 0.3rem;
+}
+
+.fitness_col3 img {
+  border-radius: 10px;
+}
+
+.popup {
+  display: flex;
+  gap: 1rem;
+  align-items: end;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem;
+  width: 14%;
+  border-radius: 10px;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+}
+
+.popup img {
+  width: 30%;
+}
+
+.fitness_col4 p {
+  padding: 0.4rem 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.3px;
+}
+
+.fitness_col4 {
+  padding: 1rem 4rem;
+}
+
+.main_heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.BestOffers {
+  background-color: var(--dark-color);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.dumb {
+  width: 25%;
+}
+
+.bestoffer_col1 {
+  padding: 1.5rem;
+  background: #464646;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+
+.bestoffer_col1 p {
+  padding: 0.5rem 0 0.9rem 0;
+  font-size: 0.95rem;
+}
+
+.bestoffer_col1 button {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+}
+
+.bestoffer_col1:hover {
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: 0.3s linear;
+  transform: scale(1.03);
+}
+
+.services {
+  background-color: var(--darklight-color);
+  color: #fff;
+  padding: 6rem 0;
+}
+
+.services_col2 img {
+  width: 100%;
+}
+.services_col1 p {
+  margin-right: 3rem;
+  font-size: 1.2rem;
+}
+
+.form-check-input {
+  border-radius: 100% !important;
+  width: 1.4rem;
+  height: 1.4rem;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color)
+}
+
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+
+.BestPlan {
+  background-color: var(--dark-color);
+  color: #fff;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.bestplan_detail p {
+  padding: 0.6rem 0;
+}
+
+.bestplan_detail img {
+  padding-right: 1rem;
+  width: 40px;
+}
+
+.bestplan_col1 h5 {
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+}
+
+.bestplan_col1 h1 {
+  font-size: 3rem;
+}
+.bestplan_col1 span {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.btn3 {
+  border: 1 px solid #fff;
+  padding: 0.7rem 3.4rem;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+.btn4 {
+  border: 0;
+  padding: 0.75rem 3.4rem;
+  background-color: #fff;
+  color: var(--primary-color);
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+.bestplan_col1 {
+  padding: 2rem 1.5rem;
+  background: #464646;
+  margin: 0.8rem;
+  border-radius: 15px;
+}
+.bestplan_col1:hover {
+  transform: scale(1.03);
+  transition: 0.3s linear;
+  cursor: pointer;
+  background-color: var(--main-color);
+}
+.bestplan_col2 {
+  position: relative;
+  background: var(--primary-color);
+  padding: 2.2rem 1.5rem;
+}
+
+.btn3:hover,
+.btn4:hover {
+  transform: scale(1.03);
+  transition: 0.3s linear;
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.btn3:hover {
+  border: 1px solid var(--dark-color);
+}
+
+.BestPlan_h3 {
+  position: absolute;
+  top: -20px;
+  left: 118px;
+  background: #fff;
+  color: #000;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+}
+
+.testimonial {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.testimonial_col2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.stars i {
+  color: #ffd700;
+  font-size: 1.3rem;
+  padding-right: 0.35rem;
+}
+.stars i:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition: 0.3s linear;
+}
+
+.test_p1 {
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  font-size: 0.9rem;
+}
+.test_p2 {
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+/* .swiper { */
+  /* margin: 100px auto;
+  width: 320px;
+  height: 240px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide {
+  background-color: rgb(206, 17, 17);
+}  */
+
+.test_main {
+  background: #464646;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
